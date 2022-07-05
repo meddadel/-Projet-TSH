@@ -1,0 +1,30 @@
+Bienvenue dans le shell TSH !
+Dans ce shell, quelques commandes classiques voient leurs actions étendues aux tarballs,
+les considérant comme des répertoires.
+En voici la liste :
+-cd (sans option)
+-ls (avec ou sans l'option -l)
+-rmdir (sans option)
+-mv (sans option)
+-cp (avec ou sans l'option -r)
+-rm (avec ou sans l'option -r)
+-mkdir (sans option)
+-cat (sans option)
+-pwd (sans option).
+De plus, les redirections et les tubes considèrent également les tarballs comme
+des répertoires
+Toutes les autres commandes ont le même comportement qu'habituellement.
+Mode d'emploi
+	-Lancement du shell tsh
+		1) Effectuer la commande `make`
+		2) Exécuter `./tsh`
+		Une fois dans le shell, vous vous retrouvez face à ça :
+		>
+		avec une ligne vide après le >, prête à attendre votre commande.
+	-Effectuer une commande
+		Pour effectuer une commande, il suffit de la taper et d'appuyer sur "Entrée".
+		Si par exemple, on veut regarder les fichiers présents dans le répertoire courant, alors on peut taper:
+		>ls
+		Et cela affichera tous les fichiers dans le répertoire courant.
+	-Quitter le shell
+		Pour quitter le shell tsh, il suffit de taper la commande 'exit'. Cela quittera la shell et affichera le message 'Au revoir'
